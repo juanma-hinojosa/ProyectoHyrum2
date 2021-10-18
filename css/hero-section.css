@@ -1,0 +1,41 @@
+.hero-section {
+    background-image: url(/images/background/hero-section/Seo-Paula-1024x579-1-1\ \(1\).jpg);
+    padding: 100px;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-heading {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.top-heading h2 {
+  
+    font-size: 4rem;
+    color: cadetblue;
+    letter-spacing: 10px;
+}
+
+.bottom-heading {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.bottom-heading a {
+    color: gainsboro;
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    margin: auto;
+    background: black;
+    padding: 20px 70px;
+}
+
+.bottom-heading a:hover {
+    color: black;
+    background: blanchedalmond;
+}

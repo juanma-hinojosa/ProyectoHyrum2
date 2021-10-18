@@ -1,0 +1,56 @@
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: whitesmoke;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer > .title{
+    width: 400px;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    padding: 5px 10px;
+}
+
+.footer > .contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.footer > .institucion-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 10px;
+}
+
+.footer > .icon-links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+}
+
+.icon-links a {
+    color: whitesmoke;
+    transition: .3s;
+}
+
+.icon-links a:hover {
+    color: cadetblue;
+}
+
+.copyright {
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.copyright p {
+    font-size: 0.8rem;
+}

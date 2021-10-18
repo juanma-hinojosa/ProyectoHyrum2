@@ -1,0 +1,63 @@
+.nav-bar {
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+.nav-bar > .left-side {
+    width: 500px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-wrapper > .logo {
+    width: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3.1px solid gainsboro;
+    padding: 5px;
+    color: gainsboro;
+}
+
+.logo-wrapper > .logo-words {
+    width: 380px;
+    color: gainsboro;
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: 2px;
+}
+
+.nav-bar > .right-side {
+    width: 350px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links > .link {
+    width: 90px;
+    text-align: center;
+}
+
+.links > a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.links > a:hover {
+    color: cadetblue;
+    letter-spacing: 2px;
+}
